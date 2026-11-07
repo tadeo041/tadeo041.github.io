@@ -1,8 +1,8 @@
-<div class="w-full min-h-screen bg-bg-principal p-8 md:p-12 lg:p-16">
-    <!-- HERO SECTION -->
+<div id="inicio" class="w-full min-h-screen bg-bg-principal p-8 md:p-12 lg:p-16 pt-24 lg:pt-32">
+
+    <!-- Sesión (Inicio) -->
     <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
-        <!-- Columna Izquierda -->
-        <div class="flex flex-col gap-6">
+        <div class="flex flex-col gap-6 reveal">
             <div>
                 <span class="inline-block px-2 py-1.5 text-etiqueta-text bg-etiqueta-bg border border-etiqueta-border font-bold text-sm rounded-lg">
                     Hola, soy Manuel
@@ -19,25 +19,24 @@
                 <button class="px-6 py-3 bg-btn-primary-bg text-btn-primary-text font-semibold rounded-lg hover:opacity-90 transition-opacity cursor-pointer">
                     Descargar CV
                 </button>
-                <button class="px-6 py-3 bg-btn-secundario-bg text-btn-secundario-text font-semibold rounded-lg border border-btn-secundario-border hover:bg-gray-50 transition-colors cursor-pointer flex items-center gap-2">
+                <a href="#proyectos" class="px-6 py-3 bg-btn-secundario-bg text-btn-secundario-text font-semibold rounded-lg border border-btn-secundario-border hover:bg-gray-50 transition-colors cursor-pointer flex items-center gap-2">
                     Ver proyectos
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                     </svg>
-                </button>
+                </a>
             </div>
         </div>
-        <!-- Columna Derecha (Imagen) -->
-        <div class="w-full">
+        <div class="w-full reveal reveal-delay-1">
             <div class="p-3 rounded-3xl border border-border-general bg-bg-secundario shadow-sm">
                 <img src="/imagen-manuel.jpg" alt="Foto de Manuel" class="w-full h-[400px] object-cover rounded-2xl" />
             </div>
         </div>
     </div>
 
-    <!-- ESTADÍSTICAS -->
+    <!-- Sesión (Estadísticas) -->
     <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-16">
-        <div class="flex items-center gap-4 p-4 rounded-xl border border-border-general bg-bg-secundario">
+        <div class="flex items-center gap-4 p-4 rounded-xl border border-border-general bg-bg-secundario reveal">
             <div class="p-2">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 text-primario">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 0 0 .75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 0 0-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0 1 12 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 0 1-.673-.38m0 0A2.18 2.18 0 0 1 3 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 0 1 3.413-.387m7.5 0V5.25A2.25 2.25 0 0 0 13.5 3h-3a2.25 2.25 0 0 0-2.25 2.25v.894m7.5 0a48.667 48.667 0 0 0-7.5 0M12 12.75h.008v.008H12v-.008Z" />
@@ -48,7 +47,7 @@
                 <p class="text-sm text-text-caption font-medium">Años de experiencia</p>
             </div>
         </div>
-        <div class="flex items-center gap-4 p-4 rounded-xl border border-border-general bg-bg-secundario">
+        <div class="flex items-center gap-4 p-4 rounded-xl border border-border-general bg-bg-secundario reveal reveal-delay-1">
             <div class="p-2">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 text-primario">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" />
@@ -59,7 +58,7 @@
                 <p class="text-sm text-text-caption font-medium">Proyectos completados</p>
             </div>
         </div>
-        <div class="flex items-center gap-4 p-4 rounded-xl border border-border-general bg-bg-secundario">
+        <div class="flex items-center gap-4 p-4 rounded-xl border border-border-general bg-bg-secundario reveal reveal-delay-2">
             <div class="p-2">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 text-primario">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z" />
@@ -67,10 +66,10 @@
             </div>
             <div>
                 <h3 class="font-bold text-xl text-text-h1">10</h3>
-                <p class="text-sm text-text-caption font-medium truncate w-32">Clientes que he trabajado</p>
+                <p class="text-sm text-text-caption font-medium truncate w-32">Clientes trabajados</p>
             </div>
         </div>
-        <div class="flex items-center gap-4 p-4 rounded-xl border border-border-general bg-bg-secundario">
+        <div class="flex items-center gap-4 p-4 rounded-xl border border-border-general bg-bg-secundario reveal reveal-delay-3">
             <div class="p-2">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 text-primario">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M6.633 10.25c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V2.75a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282m0 0h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23H5.904m10.598-9.75H14.25M5.904 18.5c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 0 1-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 9.953 4.167 9.5 5 9.5h1.053c.472 0 .745.556.5.96a8.958 8.958 0 0 0-1.302 4.665c0 1.194.232 2.333.654 3.375Z" />
@@ -83,185 +82,191 @@
         </div>
     </div>
 
-    <!-- 1. SECCIÓN DE PROYECTOS -->
-    <section class="w-full bg-bg-principal py-16 px-8 md:px-12 lg:px-16">
+    <!-- Sesión (Proyectos) -->
+    <section id="proyectos" class="w-full bg-bg-principal py-16 px-4 md:px-8">
         <div class="max-w-7xl mx-auto">
-            <div class="flex flex-col items-center mb-12 text-center">
+            <div class="flex flex-col items-center mb-16 text-center reveal">
                 <span class="inline-block px-4 py-1.5 text-etiqueta-text bg-etiqueta-bg border border-etiqueta-border font-bold text-sm rounded-lg mb-4">
                     Proyectos
                 </span>
                 <h2 class="text-4xl font-bold text-text-h2 tracking-tight">Proyectos que resuelven problemas</h2>
             </div>
 
-            <!-- Grid de Proyectos (Layout asimétrico) -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="flex flex-col gap-10">
                 
-                <!-- Tarjeta 1: POS El Zaguán -->
-                <div class="bg-bg-secundario rounded-2xl border border-border-general overflow-hidden flex flex-col lg:col-span-2">
-                    <!-- Contenedor de la imagen con position relative -->
-                    <div class="w-full h-64 relative bg-gray-200">
-                        <img src="/proyectos/img-pos-zaguan.png" alt="imagen de punto de ventas" class="w-full h-full object-cover">
-                        <span class="absolute top-4 left-4 px-3 py-1 bg-bg-secundario/90 backdrop-blur-sm text-etiqueta-text border border-etiqueta-border text-xs font-bold rounded-md shadow-sm">
-                            Punto de Venta
-                        </span>
-                    </div>
-                    <div class="p-6 flex flex-col grow">
-                        <h3 class="text-2xl font-bold text-text-h3 mb-2">Punto de venta - El Zaguán</h3>
-                        <p class="text-text-body mb-6 text-sm">POS de escritorio diseñado como servidor local para cada sucursal, con arquitectura desacoplada (Angular + Electron y NestJS + SQLite).</p>
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 mb-6 grow">
-                            <div class="bg-prob-solu-bg p-4 rounded-lg">
-                                <div class="flex items-center gap-2 text-problema font-bold mb-1">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5"><path fill-rule="evenodd" d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16ZM8.28 7.22a.75.75 0 0 0-1.06 1.06L8.94 10l-1.72 1.72a.75.75 0 1 0 1.06 1.06L10 11.06l1.72 1.72a.75.75 0 1 0 1.06-1.06L11.06 10l1.72-1.72a.75.75 0 0 0-1.06-1.06L10 8.94 8.28 7.22Z" clip-rule="evenodd" /></svg>
-                                    Problema
-                                </div>
-                                <p class="text-sm text-text-body">El uso de 'Soft Restaurant' resultaba deficiente y complicado para los usuarios. Se necesitaba una solución ágil y adaptada a la identidad del negocio.</p>
+                <!-- Proyecto 1 -->
+                <div class="bg-bg-secundario rounded-3xl p-6 md:p-10 border border-border-general shadow-sm hover:shadow-md transition-shadow duration-300 reveal">
+                    <div class="flex flex-col lg:flex-row items-center gap-10 lg:gap-16">
+                        <div class="w-full lg:w-1/2 flex flex-col justify-center">
+                            <div class="flex items-center gap-3 mb-4">
+                                <span class="px-3 py-1 bg-white text-etiqueta-text border border-etiqueta-border text-xs font-bold rounded-md shadow-sm">
+                                    Punto de Venta
+                                </span>
                             </div>
-                            <div class="bg-prob-solu-bg p-4 rounded-lg">
-                                <div class="flex items-center gap-2 text-solucion font-bold mb-1">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5"><path fill-rule="evenodd" d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z" clip-rule="evenodd" /></svg>
-                                    Solución
+                            <h3 class="text-3xl md:text-4xl font-bold text-text-h3 mb-4">Punto de venta - El Zaguán</h3>
+                            <p class="text-text-body mb-6 text-base leading-relaxed">POS de escritorio diseñado como servidor local para cada sucursal, con arquitectura desacoplada (Angular + Electron y NestJS + SQLite).</p>
+                            
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+                                <div class="bg-prob-solu-bg p-4 rounded-lg">
+                                    <div class="flex items-center gap-2 text-problema font-bold mb-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5"><path fill-rule="evenodd" d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16ZM8.28 7.22a.75.75 0 0 0-1.06 1.06L8.94 10l-1.72 1.72a.75.75 0 1 0 1.06 1.06L10 11.06l1.72 1.72a.75.75 0 1 0 1.06-1.06L11.06 10l1.72-1.72a.75.75 0 0 0-1.06-1.06L10 8.94 8.28 7.22Z" clip-rule="evenodd" /></svg>
+                                        Problema
+                                    </div>
+                                    <p class="text-sm text-text-body">El uso de 'Soft Restaurant' resultaba deficiente y complicado para los usuarios.</p>
                                 </div>
-                                <p class="text-sm text-text-body">Desarrollé un POS personalizado con las funciones exactas requeridas. Un sistema único, funcional y escalable que se moldea a las sucursales.</p>
+                                <div class="bg-prob-solu-bg p-4 rounded-lg">
+                                    <div class="flex items-center gap-2 text-solucion font-bold mb-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5"><path fill-rule="evenodd" d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z" clip-rule="evenodd" /></svg>
+                                        Solución
+                                    </div>
+                                    <p class="text-sm text-text-body">Desarrollé un POS personalizado, funcional y escalable que se moldea a las sucursales.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-center gap-6">
+                                <a href="#" class="text-enlace-demo font-semibold flex items-center gap-1 hover:underline">Ver demo 
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-4"><path d="M6.22 8.72a.75.75 0 0 0 1.06 1.06l5.22-5.22v1.69a.75.75 0 0 0 1.5 0v-3.5a.75.75 0 0 0-.75-.75h-3.5a.75.75 0 0 0 0 1.5h1.69L6.22 8.72Z" /><path d="M3.5 6.75c0-.69.56-1.25 1.25-1.25H7A.75.75 0 0 0 7 4H4.75A2.75 2.75 0 0 0 2 6.75v4.5A2.75 2.75 0 0 0 4.75 14h4.5A2.75 2.75 0 0 0 12 11.25V9a.75.75 0 0 0-1.5 0v2.25c0 .69-.56 1.25-1.25 1.25h-4.5c-.69 0-1.25-.56-1.25-1.25v-4.5Z" /></svg>
+                                </a>
+                                <a href="https://github.com/tadeo041/elzaguan-punto-venta-sucursal.git" class="text-enlace-repositorio font-semibold flex items-center gap-1 hover:underline">Repositorio 
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-4"><path fill-rule="evenodd" d="M4.78 4.97a.75.75 0 0 1 0 1.06L2.81 8l1.97 1.97a.75.75 0 1 1-1.06 1.06l-2.5-2.5a.75.75 0 0 1 0-1.06l2.5-2.5a.75.75 0 0 1 1.06 0ZM11.22 4.97a.75.75 0 0 0 0 1.06L13.19 8l-1.97 1.97a.75.75 0 1 0 1.06 1.06l2.5-2.5a.75.75 0 0 0 0-1.06l-2.5-2.5a.75.75 0 0 0-1.06 0ZM8.856 2.008a.75.75 0 0 1 .636.848l-1.5 10.5a.75.75 0 0 1-1.484-.212l1.5-10.5a.75.75 0 0 1 .848-.636Z" clip-rule="evenodd" /></svg>
+                                </a>
                             </div>
                         </div>
-                        <div class="flex items-center gap-6 mt-auto">
-                            <a href="#" class="text-enlace-demo font-semibold flex items-center gap-1 hover:underline">Ver demo 
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-4"><path d="M6.22 8.72a.75.75 0 0 0 1.06 1.06l5.22-5.22v1.69a.75.75 0 0 0 1.5 0v-3.5a.75.75 0 0 0-.75-.75h-3.5a.75.75 0 0 0 0 1.5h1.69L6.22 8.72Z" /><path d="M3.5 6.75c0-.69.56-1.25 1.25-1.25H7A.75.75 0 0 0 7 4H4.75A2.75 2.75 0 0 0 2 6.75v4.5A2.75 2.75 0 0 0 4.75 14h4.5A2.75 2.75 0 0 0 12 11.25V9a.75.75 0 0 0-1.5 0v2.25c0 .69-.56 1.25-1.25 1.25h-4.5c-.69 0-1.25-.56-1.25-1.25v-4.5Z" /></svg>
-                            </a>
-                            <a href="https://github.com/tadeo041/elzaguan-punto-venta-sucursal" class="text-enlace-repositorio font-semibold flex items-center gap-1 hover:underline">Repositorio 
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-4"><path fill-rule="evenodd" d="M4.78 4.97a.75.75 0 0 1 0 1.06L2.81 8l1.97 1.97a.75.75 0 1 1-1.06 1.06l-2.5-2.5a.75.75 0 0 1 0-1.06l2.5-2.5a.75.75 0 0 1 1.06 0ZM11.22 4.97a.75.75 0 0 0 0 1.06L13.19 8l-1.97 1.97a.75.75 0 1 0 1.06 1.06l2.5-2.5a.75.75 0 0 0 0-1.06l-2.5-2.5a.75.75 0 0 0-1.06 0ZM8.856 2.008a.75.75 0 0 1 .636.848l-1.5 10.5a.75.75 0 0 1-1.484-.212l1.5-10.5a.75.75 0 0 1 .848-.636Z" clip-rule="evenodd" /></svg>
-                            </a>
+                        <div class="w-full lg:w-1/2">
+                            <div class="relative w-full aspect-video rounded-2xl overflow-hidden border border-border-general bg-white">
+                                <img src="/proyectos/img-pos-zaguan.png" alt="Punto de venta El Zaguán" class="w-full h-full object-cover">
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Tarjeta 2: Landing Page El Zaguán -->
-                <div class="bg-bg-secundario rounded-2xl border border-border-general overflow-hidden flex flex-col">
-                    <div class="w-full h-64 relative bg-gray-200">
-                        <img src="/proyectos/img-lading-pague-zaguan.png" alt="landing page" class="w-full h-full object-cover">
-                        <span class="absolute top-4 left-4 px-3 py-1 bg-bg-secundario/90 backdrop-blur-sm text-etiqueta-text border border-etiqueta-border text-xs font-bold rounded-md shadow-sm">
-                            Landing Page
-                        </span>
-                    </div>
-                    <div class="p-6 flex flex-col grow">
-                        <h3 class="text-2xl font-bold text-text-h3 mb-2">Sitio Web - El Zaguán</h3>
-                        <p class="text-text-body text-sm mb-6 grow">Desarrollé una landing page para ampliar el alcance del restaurante. El sitio web presenta la historia de la entidad, su filosofía, menús y promociones, atrayendo a más comensales y consolidando su presencia digital.</p>
-                        <div class="flex items-center gap-6 mt-auto">
-                            <a href="#" class="text-enlace-demo font-semibold flex items-center gap-1 hover:underline">Ver demo 
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-4"><path d="M6.22 8.72a.75.75 0 0 0 1.06 1.06l5.22-5.22v1.69a.75.75 0 0 0 1.5 0v-3.5a.75.75 0 0 0-.75-.75h-3.5a.75.75 0 0 0 0 1.5h1.69L6.22 8.72Z" /><path d="M3.5 6.75c0-.69.56-1.25 1.25-1.25H7A.75.75 0 0 0 7 4H4.75A2.75 2.75 0 0 0 2 6.75v4.5A2.75 2.75 0 0 0 4.75 14h4.5A2.75 2.75 0 0 0 12 11.25V9a.75.75 0 0 0-1.5 0v2.25c0 .69-.56 1.25-1.25 1.25h-4.5c-.69 0-1.25-.56-1.25-1.25v-4.5Z" /></svg>
-                            </a>                            
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Tarjeta 3: App Móvil Listas de Compras -->
-                <div class="bg-bg-secundario rounded-2xl border border-border-general overflow-hidden flex flex-col">
-                    <div class="w-full h-64 relative bg-gray-200">
-                        <img src="/proyectos/img-app-profeco.png" alt="app movil" class="w-full h-full object-cover">
-                        <span class="absolute top-4 left-4 px-3 py-1 bg-bg-secundario/90 backdrop-blur-sm text-etiqueta-text border border-etiqueta-border text-xs font-bold rounded-md shadow-sm">
-                            App Móvil
-                        </span>
-                    </div>
-                    <div class="p-6 flex flex-col grow">
-                        <h3 class="text-2xl font-bold text-text-h3 mb-2">App Listas de Compras - AhorraList</h3>
-                        <p class="text-text-body text-sm mb-6 grow">Aplicación móvil desarrollada con Flutter (Android/iOS) que permite crear listas de compras. Consume una API de la PROFECO para mostrar precios en tiempo real, ofreciendo consejos de compra inteligentes y ayudando al ahorro de dinero.</p>
-                        <div class="flex items-center gap-6 mt-auto">
-                            <a href="#" class="text-enlace-demo font-semibold flex items-center gap-1 hover:underline">Ver demo 
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-4"><path d="M6.22 8.72a.75.75 0 0 0 1.06 1.06l5.22-5.22v1.69a.75.75 0 0 0 1.5 0v-3.5a.75.75 0 0 0-.75-.75h-3.5a.75.75 0 0 0 0 1.5h1.69L6.22 8.72Z" /><path d="M3.5 6.75c0-.69.56-1.25 1.25-1.25H7A.75.75 0 0 0 7 4H4.75A2.75 2.75 0 0 0 2 6.75v4.5A2.75 2.75 0 0 0 4.75 14h4.5A2.75 2.75 0 0 0 12 11.25V9a.75.75 0 0 0-1.5 0v2.25c0 .69-.56 1.25-1.25 1.25h-4.5c-.69 0-1.25-.56-1.25-1.25v-4.5Z" /></svg>
-                            </a>    
-                            <a href="#" class="text-enlace-repositorio font-semibold flex items-center gap-1 hover:underline">Repositorio 
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-4"><path fill-rule="evenodd" d="M4.78 4.97a.75.75 0 0 1 0 1.06L2.81 8l1.97 1.97a.75.75 0 1 1-1.06 1.06l-2.5-2.5a.75.75 0 0 1 0-1.06l2.5-2.5a.75.75 0 0 1 1.06 0ZM11.22 4.97a.75.75 0 0 0 0 1.06L13.19 8l-1.97 1.97a.75.75 0 1 0 1.06 1.06l2.5-2.5a.75.75 0 0 0 0-1.06l-2.5-2.5a.75.75 0 0 0-1.06 0ZM8.856 2.008a.75.75 0 0 1 .636.848l-1.5 10.5a.75.75 0 0 1-1.484-.212l1.5-10.5a.75.75 0 0 1 .848-.636Z" clip-rule="evenodd" /></svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Tarjeta 4: Sistema CRM CONTPAQI -->
-                <div class="bg-bg-secundario rounded-2xl border border-border-general overflow-hidden flex flex-col lg:col-span-2">
-                    <div class="w-full h-64 relative bg-gray-200">
-                        <img src="/proyectos/img-contpaqi.png" alt="sistema crm" class="w-full h-full object-cover">
-                        <span class="absolute top-4 left-4 px-3 py-1 bg-bg-secundario/90 backdrop-blur-sm text-etiqueta-text border border-etiqueta-border text-xs font-bold rounded-md shadow-sm">
-                            Sistema CRM
-                        </span>
-                    </div>
-                    <div class="p-6 flex flex-col grow">
-                        <h3 class="text-2xl font-bold text-text-h3 mb-2">Sistema CRM - CONTPAQI Comercial Premium</h3>
-                        <p class="text-text-body mb-6 text-sm">Sistema integrado con CONTPAQI Comercial Premium para mejorar la experiencia del usuario.</p>
-                        <div class="bg-prob-solu-bg p-4 rounded-lg mb-6 grow">
-                            <div class="flex items-center gap-2 text-solucion font-bold mb-1">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5"><path fill-rule="evenodd" d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z" clip-rule="evenodd" /></svg>
-                                Impacto
+                <!-- Proyecto 2 -->
+                <div class="bg-bg-secundario rounded-3xl p-6 md:p-10 border border-border-general shadow-sm hover:shadow-md transition-shadow duration-300 reveal">
+                    <div class="flex flex-col-reverse lg:flex-row items-center gap-10 lg:gap-16">
+                        <div class="w-full lg:w-1/2">
+                            <div class="relative w-full aspect-video rounded-2xl overflow-hidden border border-border-general bg-white">
+                                <img src="/proyectos/img-lading-pague-zaguan.png" alt="Landing Page El Zaguán" class="w-full h-full object-cover">
                             </div>
-                            <p class="text-sm text-text-body">Desarrollé un ecosistema personalizado y escalable adaptado a los colores y procesos exactos del sistema contpaqi comercial premium. Esta solución mejoró drásticamente la experiencia de usuario, facilitando la operación diaria y la gestión de datos comerciales.</p>
                         </div>
-                        <div class="flex items-center gap-6 mt-auto">
-                            <a href="#" class="text-enlace-demo font-semibold flex items-center gap-1 hover:underline">Ver demo 
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-4"><path d="M6.22 8.72a.75.75 0 0 0 1.06 1.06l5.22-5.22v1.69a.75.75 0 0 0 1.5 0v-3.5a.75.75 0 0 0-.75-.75h-3.5a.75.75 0 0 0 0 1.5h1.69L6.22 8.72Z" /><path d="M3.5 6.75c0-.69.56-1.25 1.25-1.25H7A.75.75 0 0 0 7 4H4.75A2.75 2.75 0 0 0 2 6.75v4.5A2.75 2.75 0 0 0 4.75 14h4.5A2.75 2.75 0 0 0 12 11.25V9a.75.75 0 0 0-1.5 0v2.25c0 .69-.56 1.25-1.25 1.25h-4.5c-.69 0-1.25-.56-1.25-1.25v-4.5Z" /></svg>
-                            </a>
-                            <a href="#" class="text-enlace-repositorio font-semibold flex items-center gap-1 hover:underline">Repositorio 
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-4"><path fill-rule="evenodd" d="M4.78 4.97a.75.75 0 0 1 0 1.06L2.81 8l1.97 1.97a.75.75 0 1 1-1.06 1.06l-2.5-2.5a.75.75 0 0 1 0-1.06l2.5-2.5a.75.75 0 0 1 1.06 0ZM11.22 4.97a.75.75 0 0 0 0 1.06L13.19 8l-1.97 1.97a.75.75 0 1 0 1.06 1.06l2.5-2.5a.75.75 0 0 0 0-1.06l-2.5-2.5a.75.75 0 0 0-1.06 0ZM8.856 2.008a.75.75 0 0 1 .636.848l-1.5 10.5a.75.75 0 0 1-1.484-.212l1.5-10.5a.75.75 0 0 1 .848-.636Z" clip-rule="evenodd" /></svg>
-                            </a>                            
+                        <div class="w-full lg:w-1/2 flex flex-col justify-center">
+                            <div class="flex items-center gap-3 mb-4">
+                                <span class="px-3 py-1 bg-white text-etiqueta-text border border-etiqueta-border text-xs font-bold rounded-md shadow-sm">
+                                    Landing Page
+                                </span>
+                            </div>
+                            <h3 class="text-3xl md:text-4xl font-bold text-text-h3 mb-4">Sitio Web - El Zaguán</h3>
+                            <p class="text-text-body mb-6 text-base leading-relaxed">Desarrollé una landing page para ampliar el alcance del restaurante. El sitio web presenta la historia de la entidad, su filosofía, menús y promociones, atrayendo a más comensales y consolidando su presencia digital.</p>
+                            
+                            <div class="flex items-center gap-6 mt-4">
+                                <a href="#" class="text-enlace-demo font-semibold flex items-center gap-1 hover:underline">Ver demo 
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-4"><path d="M6.22 8.72a.75.75 0 0 0 1.06 1.06l5.22-5.22v1.69a.75.75 0 0 0 1.5 0v-3.5a.75.75 0 0 0-.75-.75h-3.5a.75.75 0 0 0 0 1.5h1.69L6.22 8.72Z" /><path d="M3.5 6.75c0-.69.56-1.25 1.25-1.25H7A.75.75 0 0 0 7 4H4.75A2.75 2.75 0 0 0 2 6.75v4.5A2.75 2.75 0 0 0 4.75 14h4.5A2.75 2.75 0 0 0 12 11.25V9a.75.75 0 0 0-1.5 0v2.25c0 .69-.56 1.25-1.25 1.25h-4.5c-.69 0-1.25-.56-1.25-1.25v-4.5Z" /></svg>
+                                </a>                            
+                            </div>
                         </div>
                     </div>
-                </div>                  
+                </div>
 
-                <!-- Tarjeta 5: Sistema Apartados Super Tianguis -->
-                <div class="bg-bg-secundario rounded-2xl border border-border-general overflow-hidden flex flex-col lg:col-span-2">
-                    <div class="w-full h-64 relative bg-gray-200">
-                        <img src="/proyectos/img-super-tianguis.png" alt="sistema de apartados" class="w-full h-full object-cover">
-                        <span class="absolute top-4 left-4 px-3 py-1 bg-bg-secundario/90 backdrop-blur-sm text-etiqueta-text border border-etiqueta-border text-xs font-bold rounded-md shadow-sm">
-                            Sistema
-                        </span>
+                <!-- Proyecto 3 -->
+                <div class="bg-bg-secundario rounded-3xl p-6 md:p-10 border border-border-general shadow-sm hover:shadow-md transition-shadow duration-300 reveal">
+                    <div class="flex flex-col lg:flex-row items-center gap-10 lg:gap-16">
+                        <div class="w-full lg:w-1/2 flex flex-col justify-center">
+                            <div class="flex items-center gap-3 mb-4">
+                                <span class="px-3 py-1 bg-white text-etiqueta-text border border-etiqueta-border text-xs font-bold rounded-md shadow-sm">
+                                    App Móvil
+                                </span>
+                            </div>
+                            <h3 class="text-3xl md:text-4xl font-bold text-text-h3 mb-4">App Listas de Compras - AhorraList</h3>
+                            <p class="text-text-body mb-6 text-base leading-relaxed">Aplicación móvil desarrollada con Flutter (Android/iOS) que permite crear listas de compras. Consume una API de la PROFECO para mostrar precios en tiempo real, ofreciendo consejos de compra inteligentes y ayudando al ahorro de dinero.</p>
+                            
+                            <div class="flex items-center gap-6 mt-4">
+                                <a href="#" class="text-enlace-demo font-semibold flex items-center gap-1 hover:underline">Ver demo 
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-4"><path d="M6.22 8.72a.75.75 0 0 0 1.06 1.06l5.22-5.22v1.69a.75.75 0 0 0 1.5 0v-3.5a.75.75 0 0 0-.75-.75h-3.5a.75.75 0 0 0 0 1.5h1.69L6.22 8.72Z" /><path d="M3.5 6.75c0-.69.56-1.25 1.25-1.25H7A.75.75 0 0 0 7 4H4.75A2.75 2.75 0 0 0 2 6.75v4.5A2.75 2.75 0 0 0 4.75 14h4.5A2.75 2.75 0 0 0 12 11.25V9a.75.75 0 0 0-1.5 0v2.25c0 .69-.56 1.25-1.25 1.25h-4.5c-.69 0-1.25-.56-1.25-1.25v-4.5Z" /></svg>
+                                </a>    
+                                <a href="#" class="text-enlace-repositorio font-semibold flex items-center gap-1 hover:underline">Repositorio 
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-4"><path fill-rule="evenodd" d="M4.78 4.97a.75.75 0 0 1 0 1.06L2.81 8l1.97 1.97a.75.75 0 1 1-1.06 1.06l-2.5-2.5a.75.75 0 0 1 0-1.06l2.5-2.5a.75.75 0 0 1 1.06 0ZM11.22 4.97a.75.75 0 0 0 0 1.06L13.19 8l-1.97 1.97a.75.75 0 1 0 1.06 1.06l2.5-2.5a.75.75 0 0 0 0-1.06l-2.5-2.5a.75.75 0 0 0-1.06 0ZM8.856 2.008a.75.75 0 0 1 .636.848l-1.5 10.5a.75.75 0 0 1-1.484-.212l1.5-10.5a.75.75 0 0 1 .848-.636Z" clip-rule="evenodd" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="w-full lg:w-1/2">
+                            <div class="relative w-full aspect-video rounded-2xl overflow-hidden border border-border-general bg-white">
+                                <img src="/proyectos/img-app-profeco.png" alt="App AhorraList" class="w-full h-full object-cover">
+                            </div>
+                        </div>
                     </div>
-                    <div class="p-6 flex flex-col grow">
-                        <h3 class="text-2xl font-bold text-text-h3 mb-2">Sistema de Apartados - El Super Tianguis</h3>
-                        <p class="text-text-body mb-6 text-sm">Plataforma de gestión de reservas de ropa para los clientes de El Super Tianguis.</p>
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 mb-6 grow">
-                            <div class="bg-prob-solu-bg p-4 rounded-lg">
-                                <div class="flex items-center gap-2 text-problema font-bold mb-1">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5"><path fill-rule="evenodd" d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16ZM8.28 7.22a.75.75 0 0 0-1.06 1.06L8.94 10l-1.72 1.72a.75.75 0 1 0 1.06 1.06L10 11.06l1.72 1.72a.75.75 0 1 0 1.06-1.06L11.06 10l1.72-1.72a.75.75 0 0 0-1.06-1.06L10 8.94 8.28 7.22Z" clip-rule="evenodd" /></svg>
-                                    Problema
+                </div>
+
+                <!-- Proyecto 4 -->
+                <div class="bg-bg-secundario rounded-3xl p-6 md:p-10 border border-border-general shadow-sm hover:shadow-md transition-shadow duration-300 reveal">
+                    <div class="flex flex-col lg:flex-row items-center gap-10 lg:gap-16">
+                        <div class="w-full lg:w-1/2">
+                            <div class="relative w-full aspect-video rounded-2xl overflow-hidden border border-border-general bg-white">
+                                <img src="/proyectos/img-super-tianguis.png" alt="Sistema Super Tianguis" class="w-full h-full object-cover">
+                            </div>
+                        </div>
+                        <div class="w-full lg:w-1/2 flex flex-col justify-center">
+                            <div class="flex items-center gap-3 mb-4">
+                                <span class="px-3 py-1 bg-white text-etiqueta-text border border-etiqueta-border text-xs font-bold rounded-md shadow-sm">
+                                    Sistema
+                                </span>
+                            </div>
+                            <h3 class="text-3xl md:text-4xl font-bold text-text-h3 mb-4">Sistema de Apartados - El Super Tianguis</h3>
+                            <p class="text-text-body mb-6 text-base leading-relaxed">Plataforma de gestión de reservas de ropa para los clientes de El Super Tianguis.</p>
+                            
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+                                <div class="bg-prob-solu-bg p-4 rounded-lg">
+                                    <div class="flex items-center gap-2 text-problema font-bold mb-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5"><path fill-rule="evenodd" d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16ZM8.28 7.22a.75.75 0 0 0-1.06 1.06L8.94 10l-1.72 1.72a.75.75 0 1 0 1.06 1.06L10 11.06l1.72 1.72a.75.75 0 1 0 1.06-1.06L11.06 10l1.72-1.72a.75.75 0 0 0-1.06-1.06L10 8.94 8.28 7.22Z" clip-rule="evenodd" /></svg>
+                                        Problema
+                                    </div>
+                                    <p class="text-sm text-text-body">El negocio gestionaba apartados en Excel, generando errores y pérdida de información.</p>
                                 </div>
-                                <p class="text-sm text-text-body">El negocio gestionaba apartados en Excel, generando errores y pérdida de información de abonos, lo que causaba pérdidas económicas al depender de la palabra del cliente.</p>
-                            </div>
-                            <div class="bg-prob-solu-bg p-4 rounded-lg">
-                                <div class="flex items-center gap-2 text-solucion font-bold mb-1">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5"><path fill-rule="evenodd" d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z" clip-rule="evenodd" /></svg>
-                                    Solución
+                                <div class="bg-prob-solu-bg p-4 rounded-lg">
+                                    <div class="flex items-center gap-2 text-solucion font-bold mb-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5"><path fill-rule="evenodd" d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z" clip-rule="evenodd" /></svg>
+                                        Solución
+                                    </div>
+                                    <p class="text-sm text-text-body">Creé un sistema centralizado para registrar y dar seguimiento a apartados con respaldo en Excel.</p>
                                 </div>
-                                <p class="text-sm text-text-body">Creé un sistema centralizado para registrar y dar seguimiento a apartados. Incluye recordatorios automáticos por correo y sincronización con Excel como respaldo sin interrumpir operaciones.</p>
                             </div>
-                        </div>
-                        <div class="flex items-center gap-6 mt-auto">
-                            <a href="#" class="text-enlace-demo font-semibold flex items-center gap-1 hover:underline">Ver demo 
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-4"><path d="M6.22 8.72a.75.75 0 0 0 1.06 1.06l5.22-5.22v1.69a.75.75 0 0 0 1.5 0v-3.5a.75.75 0 0 0-.75-.75h-3.5a.75.75 0 0 0 0 1.5h1.69L6.22 8.72Z" /><path d="M3.5 6.75c0-.69.56-1.25 1.25-1.25H7A.75.75 0 0 0 7 4H4.75A2.75 2.75 0 0 0 2 6.75v4.5A2.75 2.75 0 0 0 4.75 14h4.5A2.75 2.75 0 0 0 12 11.25V9a.75.75 0 0 0-1.5 0v2.25c0 .69-.56 1.25-1.25 1.25h-4.5c-.69 0-1.25-.56-1.25-1.25v-4.5Z" /></svg>
-                            </a>
-                            <a href="#" class="text-enlace-repositorio font-semibold flex items-center gap-1 hover:underline">Repositorio 
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-4"><path fill-rule="evenodd" d="M4.78 4.97a.75.75 0 0 1 0 1.06L2.81 8l1.97 1.97a.75.75 0 1 1-1.06 1.06l-2.5-2.5a.75.75 0 0 1 0-1.06l2.5-2.5a.75.75 0 0 1 1.06 0ZM11.22 4.97a.75.75 0 0 0 0 1.06L13.19 8l-1.97 1.97a.75.75 0 1 0 1.06 1.06l2.5-2.5a.75.75 0 0 0 0-1.06l-2.5-2.5a.75.75 0 0 0-1.06 0ZM8.856 2.008a.75.75 0 0 1 .636.848l-1.5 10.5a.75.75 0 0 1-1.484-.212l1.5-10.5a.75.75 0 0 1 .848-.636Z" clip-rule="evenodd" /></svg>
-                            </a>
-                        </div>
+
+                            <div class="flex items-center gap-6 mt-4">
+                                <a href="#" class="text-enlace-demo font-semibold flex items-center gap-1 hover:underline">Ver demo 
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-4"><path d="M6.22 8.72a.75.75 0 0 0 1.06 1.06l5.22-5.22v1.69a.75.75 0 0 0 1.5 0v-3.5a.75.75 0 0 0-.75-.75h-3.5a.75.75 0 0 0 0 1.5h1.69L6.22 8.72Z" /><path d="M3.5 6.75c0-.69.56-1.25 1.25-1.25H7A.75.75 0 0 0 7 4H4.75A2.75 2.75 0 0 0 2 6.75v4.5A2.75 2.75 0 0 0 4.75 14h4.5A2.75 2.75 0 0 0 12 11.25V9a.75.75 0 0 0-1.5 0v2.25c0 .69-.56 1.25-1.25 1.25h-4.5c-.69 0-1.25-.56-1.25-1.25v-4.5Z" /></svg>
+                                </a>
+                                <a href="#" class="text-enlace-repositorio font-semibold flex items-center gap-1 hover:underline">Repositorio 
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-4"><path fill-rule="evenodd" d="M4.78 4.97a.75.75 0 0 1 0 1.06L2.81 8l1.97 1.97a.75.75 0 1 1-1.06 1.06l-2.5-2.5a.75.75 0 0 1 0-1.06l2.5-2.5a.75.75 0 0 1 1.06 0ZM11.22 4.97a.75.75 0 0 0 0 1.06L13.19 8l-1.97 1.97a.75.75 0 1 0 1.06 1.06l2.5-2.5a.75.75 0 0 0 0-1.06l-2.5-2.5a.75.75 0 0 0-1.06 0ZM8.856 2.008a.75.75 0 0 1 .636.848l-1.5 10.5a.75.75 0 0 1-1.484-.212l1.5-10.5a.75.75 0 0 1 .848-.636Z" clip-rule="evenodd" /></svg>
+                                </a>
+                            </div>
+                        </div>                        
                     </div>
                 </div>
 
-                <!-- Tarjeta 6: Sistema Veterinaria -->
-                <div class="bg-bg-secundario rounded-2xl border border-border-general overflow-hidden flex flex-col">
-                    <div class="w-full h-64 relative bg-gray-200">
-                        <img src="/proyectos/img-veterinaria.png" alt="sistema web veterinaria" class="w-full h-full object-cover">
-                        <span class="absolute top-4 left-4 px-3 py-1 bg-bg-secundario/90 backdrop-blur-sm text-etiqueta-text border border-etiqueta-border text-xs font-bold rounded-md shadow-sm">
-                            Sistema Web
-                        </span>
-                    </div>
-                    <div class="p-6 flex flex-col grow">
-                        <h3 class="text-2xl font-bold text-text-h3 mb-2">Sistema para Sucursales Veterinarias</h3>
-                        <p class="text-text-body text-sm mb-6 grow">Plataforma integral para la gestión de clínicas veterinarias. Incluye control de inventario de medicamentos, historial clínico de animales, creación de recetas médicas, seguimiento de pagos (consultas/medicamentos) y facturación automatizada.</p>
-                        <div class="flex items-center gap-6 mt-auto">
-                            <a href="#" class="text-enlace-demo font-semibold flex items-center gap-1 hover:underline">Ver demo 
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-4"><path d="M6.22 8.72a.75.75 0 0 0 1.06 1.06l5.22-5.22v1.69a.75.75 0 0 0 1.5 0v-3.5a.75.75 0 0 0-.75-.75h-3.5a.75.75 0 0 0 0 1.5h1.69L6.22 8.72Z" /><path d="M3.5 6.75c0-.69.56-1.25 1.25-1.25H7A.75.75 0 0 0 7 4H4.75A2.75 2.75 0 0 0 2 6.75v4.5A2.75 2.75 0 0 0 4.75 14h4.5A2.75 2.75 0 0 0 12 11.25V9a.75.75 0 0 0-1.5 0v2.25c0 .69-.56 1.25-1.25 1.25h-4.5c-.69 0-1.25-.56-1.25-1.25v-4.5Z" /></svg>
-                            </a>    
-                            <a href="#" class="text-enlace-repositorio font-semibold flex items-center gap-1 hover:underline">Repositorio 
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-4"><path fill-rule="evenodd" d="M4.78 4.97a.75.75 0 0 1 0 1.06L2.81 8l1.97 1.97a.75.75 0 1 1-1.06 1.06l-2.5-2.5a.75.75 0 0 1 0-1.06l2.5-2.5a.75.75 0 0 1 1.06 0ZM11.22 4.97a.75.75 0 0 0 0 1.06L13.19 8l-1.97 1.97a.75.75 0 1 0 1.06 1.06l2.5-2.5a.75.75 0 0 0 0-1.06l-2.5-2.5a.75.75 0 0 0-1.06 0ZM8.856 2.008a.75.75 0 0 1 .636.848l-1.5 10.5a.75.75 0 0 1-1.484-.212l1.5-10.5a.75.75 0 0 1 .848-.636Z" clip-rule="evenodd" /></svg>
-                            </a>
+                <!-- Proyecto 5 -->
+                <div class="bg-bg-secundario rounded-3xl p-6 md:p-10 border border-border-general shadow-sm hover:shadow-md transition-shadow duration-300 reveal">
+                    <div class="flex flex-col-reverse lg:flex-row items-center gap-10 lg:gap-16">
+                        <div class="w-full lg:w-1/2 flex flex-col justify-center">
+                            <div class="flex items-center gap-3 mb-4">
+                                <span class="px-3 py-1 bg-white text-etiqueta-text border border-etiqueta-border text-xs font-bold rounded-md shadow-sm">
+                                    Sistema Web
+                                </span>
+                            </div>
+                            <h3 class="text-3xl md:text-4xl font-bold text-text-h3 mb-4">Sistema para Sucursales Veterinarias</h3>
+                            <p class="text-text-body mb-6 text-base leading-relaxed">Plataforma integral para la gestión de clínicas veterinarias. Incluye control de inventario de medicamentos, historial clínico de animales, creación de recetas médicas, seguimiento de pagos (consultas/medicamentos).</p>
+                            
+                            <div class="flex items-center gap-6 mt-4">
+                                <a href="#" class="text-enlace-demo font-semibold flex items-center gap-1 hover:underline">Ver demo 
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-4"><path d="M6.22 8.72a.75.75 0 0 0 1.06 1.06l5.22-5.22v1.69a.75.75 0 0 0 1.5 0v-3.5a.75.75 0 0 0-.75-.75h-3.5a.75.75 0 0 0 0 1.5h1.69L6.22 8.72Z" /><path d="M3.5 6.75c0-.69.56-1.25 1.25-1.25H7A.75.75 0 0 0 7 4H4.75A2.75 2.75 0 0 0 2 6.75v4.5A2.75 2.75 0 0 0 4.75 14h4.5A2.75 2.75 0 0 0 12 11.25V9a.75.75 0 0 0-1.5 0v2.25c0 .69-.56 1.25-1.25 1.25h-4.5c-.69 0-1.25-.56-1.25-1.25v-4.5Z" /></svg>
+                                </a>    
+                                <a href="#" class="text-enlace-repositorio font-semibold flex items-center gap-1 hover:underline">Repositorio 
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-4"><path fill-rule="evenodd" d="M4.78 4.97a.75.75 0 0 1 0 1.06L2.81 8l1.97 1.97a.75.75 0 1 1-1.06 1.06l-2.5-2.5a.75.75 0 0 1 0-1.06l2.5-2.5a.75.75 0 0 1 1.06 0ZM11.22 4.97a.75.75 0 0 0 0 1.06L13.19 8l-1.97 1.97a.75.75 0 1 0 1.06 1.06l2.5-2.5a.75.75 0 0 0 0-1.06l-2.5-2.5a.75.75 0 0 0-1.06 0ZM8.856 2.008a.75.75 0 0 1 .636.848l-1.5 10.5a.75.75 0 0 1-1.484-.212l1.5-10.5a.75.75 0 0 1 .848-.636Z" clip-rule="evenodd" /></svg>
+                                </a>
+                            </div>
                         </div>
+                        <div class="w-full lg:w-1/2">
+                            <div class="relative w-full aspect-video rounded-2xl overflow-hidden border border-border-general bg-white">
+                                <img src="/proyectos/img-veterinaria.png" alt="Sistema Veterinaria" class="w-full h-full object-cover">
+                            </div>
+                        </div>                        
                     </div>
                 </div>
 
@@ -269,17 +274,17 @@
         </div>
     </section>
 
-    <!-- 2. SECCIÓN DE HABILIDADES -->
-    <section class="w-full bg-bg-principal py-16 px-8 md:px-12 lg:px-16">
+    <!-- Sesión (Habilidades) -->
+    <section id="habilidades" class="w-full bg-bg-principal py-16 px-8 md:px-12 lg:px-16">
         <div class="max-w-7xl mx-auto">
-            <div class="flex flex-col items-center mb-12 text-center">
+            <div class="flex flex-col items-center mb-12 text-center reveal">
                 <span class="inline-block px-4 py-1.5 text-etiqueta-text bg-etiqueta-bg border border-etiqueta-border font-bold text-sm rounded-lg mb-4">
                     Habilidades
                 </span>
                 <h2 class="text-4xl font-bold text-text-h2 tracking-tight">Dominando tecnologías para crear experiencias digitales</h2>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div class="bg-bg-secundario p-8 rounded-2xl border border-border-general">
+                <div class="bg-bg-secundario p-8 rounded-2xl border border-border-general reveal">
                     <div class="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center text-primario mb-6 text-2xl">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8"><path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 0 1-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0 1 15 18.257V17.25m6-12V15a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 15V5.25m18 0A2.25 2.25 0 0 0 18.75 3H5.25A2.25 2.25 0 0 0 3 5.25m18 0V12a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 12V5.25" /></svg>
                     </div>
@@ -294,7 +299,7 @@
                         <span class="px-3 py-1 bg-bg-principal text-text-label text-sm font-semibold rounded-md">Electron</span>
                     </div>
                 </div>
-                <div class="bg-bg-secundario p-8 rounded-2xl border border-border-general">
+                <div class="bg-bg-secundario p-8 rounded-2xl border border-border-general reveal reveal-delay-1">
                     <div class="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center text-primario mb-6 text-2xl">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8"><path stroke-linecap="round" stroke-linejoin="round" d="M5.25 14.25h13.5m-13.5 0a3 3 0 0 1-3-3m3 3a3 3 0 1 0 0 6h13.5a3 3 0 1 0 0-6m-16.5-3a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3m-19.5 0a4.5 4.5 0 0 1 .9-2.7L5.737 5.1a3.375 3.375 0 0 1 2.7-1.35h7.126c1.062 0 2.062.5 2.7 1.35l2.587 3.45a4.5 4.5 0 0 1 .9 2.7m0 0a3 3 0 0 1-3 3m0 3h.008v.008h-.008v-.008Zm0-6h.008v.008h-.008v-.008Zm-3 6h.008v.008h-.008v-.008Zm0-6h.008v.008h-.008v-.008Z" /></svg>
                     </div>
@@ -307,7 +312,7 @@
                         <span class="px-3 py-1 bg-bg-principal text-text-label text-sm font-semibold rounded-md">SQL</span>
                     </div>
                 </div>
-                <div class="bg-bg-secundario p-8 rounded-2xl border border-border-general">
+                <div class="bg-bg-secundario p-8 rounded-2xl border border-border-general reveal reveal-delay-2">
                     <div class="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center text-primario mb-6 text-2xl">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8"><path stroke-linecap="round" stroke-linejoin="round" d="M11.42 15.17 17.25 21A2.652 2.652 0 0 0 21 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 1 1-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 0 0 4.486-6.336l-3.276 3.277a3.004 3.004 0 0 1-2.25-2.25l3.276-3.276a4.5 4.5 0 0 0-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437 1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008Z" /></svg>
                     </div>
@@ -325,17 +330,17 @@
         </div>
     </section>
 
-    <!-- 3. SECCIÓN DE EXPERIENCIA -->
-    <section class="w-full bg-bg-principal py-16 px-8 md:px-12 lg:px-16">
+    <!-- Sesión (Experiencia) -->
+    <section id="experiencia" class="w-full bg-bg-principal py-16 px-8 md:px-12 lg:px-16">
         <div class="max-w-7xl mx-auto">
-            <div class="flex flex-col items-center mb-12 text-center">
+            <div class="flex flex-col items-center mb-12 text-center reveal">
                 <span class="inline-block px-4 py-1.5 text-etiqueta-text bg-etiqueta-bg border border-etiqueta-border font-bold text-sm rounded-lg mb-4">
                     Experiencia
                 </span>
                 <h2 class="text-4xl font-bold text-text-h2 tracking-tight">Trayectoria construida con código y colaboración</h2>
             </div>
             <div class="flex flex-col gap-6">
-                <div class="bg-bg-secundario p-8 rounded-2xl border border-border-general">
+                <div class="bg-bg-secundario p-8 rounded-2xl border border-border-general reveal">
                     <div class="flex justify-between items-start mb-2">
                         <span class="text-primario font-bold text-sm">El Zaguan</span>
                         <span class="bg-etiqueta-bg text-etiqueta-text px-3 py-1 rounded-md text-sm font-bold">2026 - 2027</span>
@@ -350,7 +355,7 @@
                         <span class="px-3 py-1 bg-bg-principal text-text-label font-semibold text-xs rounded-md">Nest</span>
                     </div>
                 </div>
-                <div class="bg-bg-secundario p-8 rounded-2xl border border-border-general">
+                <div class="bg-bg-secundario p-8 rounded-2xl border border-border-general reveal">
                     <div class="flex justify-between items-start mb-2">
                         <span class="text-primario font-bold text-sm">El Super Tianguis</span>
                         <span class="bg-etiqueta-bg text-etiqueta-text px-3 py-1 rounded-md text-sm font-bold">2026 - 2027</span>
@@ -363,7 +368,7 @@
                         <span class="px-3 py-1 bg-bg-principal text-text-label font-semibold text-xs rounded-md">SQL Management</span>
                     </div>
                 </div>
-                <div class="bg-bg-secundario p-8 rounded-2xl border border-border-general">
+                <div class="bg-bg-secundario p-8 rounded-2xl border border-border-general reveal">
                     <div class="flex justify-between items-start mb-2">
                         <span class="text-primario font-bold text-sm">Nombre de dios</span>
                         <span class="bg-etiqueta-bg text-etiqueta-text px-3 py-1 rounded-md text-sm font-bold">2026 - 2027</span>
@@ -375,7 +380,7 @@
                         <span class="px-3 py-1 bg-bg-principal text-text-label font-semibold text-xs rounded-md">Design Systems Tailiwind</span>
                     </div>
                 </div>  
-                <div class="bg-bg-secundario p-8 rounded-2xl border border-border-general">
+                <div class="bg-bg-secundario p-8 rounded-2xl border border-border-general reveal">
                     <div class="flex justify-between items-start mb-2">
                         <span class="text-primario font-bold text-sm">Cabs computación</span>
                         <span class="bg-etiqueta-bg text-etiqueta-text px-3 py-1 rounded-md text-sm font-bold">2026 - 2027</span>
@@ -394,21 +399,19 @@
         </div>
     </section>
 
-    <!-- 4. SECCIÓN EDUCACIÓN Y CERTIFICACIONES -->
-    <section class="w-full bg-bg-principal py-16 px-8 md:px-12 lg:px-16">
+    <!-- Sesión (Educación y certificaciones) -->
+    <section id="educacion" class="w-full bg-bg-principal py-16 px-8 md:px-12 lg:px-16">
         <div class="max-w-7xl mx-auto">
-            <div class="flex flex-col items-center mb-12 text-center">
+            <div class="flex flex-col items-center mb-12 text-center reveal">
                 <span class="inline-block px-4 py-1.5 text-etiqueta-text bg-etiqueta-bg border border-etiqueta-border font-bold text-sm rounded-lg mb-4">
                     Educación y certificaciones
                 </span>
                 <h2 class="text-4xl font-bold text-text-h2 tracking-tight">Aprendizaje constante y credenciales que respaldan mi perfil</h2>
             </div>
 
-            <!-- Grid Educación (Máximo 3 columnas) -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 
-                <!-- Card 1: Universidad -->
-                <div class="bg-bg-secundario p-8 rounded-2xl border border-border-general flex flex-col">
+                <div class="bg-bg-secundario p-8 rounded-2xl border border-border-general flex flex-col reveal">
                     <div class="flex justify-between items-start mb-6">
                         <div class="text-primario text-3xl">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8"><path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" /></svg>
@@ -423,8 +426,7 @@
                     </div>
                 </div>
 
-                <!-- Card 2: Angular -->
-                <div class="bg-bg-secundario p-8 rounded-2xl border border-border-general flex flex-col">
+                <div class="bg-bg-secundario p-8 rounded-2xl border border-border-general flex flex-col reveal reveal-delay-1">
                     <div class="flex justify-between items-start mb-6">
                         <div class="text-primario text-3xl">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8"><path stroke-linecap="round" stroke-linejoin="round" d="m6.75 7.5 3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0 0 21 18V6a2.25 2.25 0 0 0-2.25-2.25H5.25A2.25 2.25 0 0 0 3 6v12a2.25 2.25 0 0 0 2.25 2.25Z" /></svg>
@@ -439,8 +441,7 @@
                     </div>
                 </div>
 
-                <!-- Card 3: Flutter -->
-                <div class="bg-bg-secundario p-8 rounded-2xl border border-border-general flex flex-col">
+                <div class="bg-bg-secundario p-8 rounded-2xl border border-border-general flex flex-col reveal reveal-delay-2">
                     <div class="flex justify-between items-start mb-6">
                         <div class="text-primario text-3xl">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8"><path stroke-linecap="round" stroke-linejoin="round" d="m6.75 7.5 3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0 0 21 18V6a2.25 2.25 0 0 0-2.25-2.25H5.25A2.25 2.25 0 0 0 3 6v12a2.25 2.25 0 0 0 2.25 2.25Z" /></svg>          
@@ -455,51 +456,48 @@
                     </div>
                 </div>
 
-                <!-- Card 4: PMP -->
-                <div class="bg-bg-secundario p-8 rounded-2xl border border-border-general flex flex-col">
+                <div class="bg-bg-secundario p-8 rounded-2xl border border-border-general flex flex-col opacity-80 hover:opacity-100 transition-opacity reveal">
                     <div class="flex justify-between items-start mb-6">
-                        <div class="text-primario text-3xl">
+                        <div class="text-gray-400 text-3xl">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 0 0 2.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 0 0-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75 2.25 2.25 0 0 0-.1-.664m-5.8 0A2.251 2.251 0 0 1 13.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25ZM6.75 12h.008v.008H6.75V12Zm0 3h.008v.008H6.75V15Zm0 3h.008v.008H6.75V18Z" /></svg>
                         </div>
-                        <span class="bg-etiqueta-bg text-etiqueta-text px-2 py-1 rounded-md text-sm font-bold">Certificado</span>
+                        <span class="bg-gray-100 text-gray-600 px-2 py-1 rounded-md text-sm font-bold border border-gray-200">Próximamente</span>
                     </div>
                     <h3 class="text-xl font-bold text-text-h3 mb-2">Gestión de Proyectos (PMP)</h3>
                     <p class="text-text-body text-sm leading-relaxed mb-8 grow">Metodologías ágiles y tradicionales para la dirección y entrega exitosa de proyectos de software.</p>
                     <div class="mt-auto">
                         <p class="font-bold text-text-h4">Project Management Institute</p>
-                        <p class="text-text-body text-sm mt-1">2024</p>
+                        <p class="text-text-body text-sm mt-1">En curso</p>
                     </div>
                 </div>
 
-                <!-- Card 5: AWS -->
-                <div class="bg-bg-secundario p-8 rounded-2xl border border-border-general flex flex-col">
+                <div class="bg-bg-secundario p-8 rounded-2xl border border-border-general flex flex-col opacity-80 hover:opacity-100 transition-opacity reveal reveal-delay-1">
                     <div class="flex justify-between items-start mb-6">
-                        <div class="text-primario text-3xl">
+                        <div class="text-gray-400 text-3xl">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418" /></svg>
                         </div>
-                        <span class="bg-etiqueta-bg text-etiqueta-text px-2 py-1 rounded-md text-sm font-bold">Certificado</span>
+                        <span class="bg-gray-100 text-gray-600 px-2 py-1 rounded-md text-sm font-bold border border-gray-200">Próximamente</span>
                     </div>
                     <h3 class="text-xl font-bold text-text-h3 mb-2">Cloud Practitioner (AWS)</h3>
                     <p class="text-text-body text-sm leading-relaxed mb-8 grow">Conocimientos fundamentales de servicios en la nube, seguridad y arquitectura en AWS.</p>
                     <div class="mt-auto">
                         <p class="font-bold text-text-h4">Amazon Web Services</p>
-                        <p class="text-text-body text-sm mt-1">2024</p>
+                        <p class="text-text-body text-sm mt-1">En curso</p>
                     </div>
                 </div>
 
-                <!-- Card 6: Redes -->
-                <div class="bg-bg-secundario p-8 rounded-2xl border border-border-general flex flex-col">
+                <div class="bg-bg-secundario p-8 rounded-2xl border border-border-general flex flex-col opacity-80 hover:opacity-100 transition-opacity reveal reveal-delay-2">
                     <div class="flex justify-between items-start mb-6">
-                        <div class="text-primario text-3xl">
+                        <div class="text-gray-400 text-3xl">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8"><path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" /></svg>
                         </div>
-                        <span class="bg-etiqueta-bg text-etiqueta-text px-2 py-1 rounded-md text-sm font-bold">Certificado</span>
+                        <span class="bg-gray-100 text-gray-600 px-2 py-1 rounded-md text-sm font-bold border border-gray-200">Próximamente</span>
                     </div>
                     <h3 class="text-xl font-bold text-text-h3 mb-2">Redes y Telecomunicaciones</h3>
                     <p class="text-text-body text-sm leading-relaxed mb-8 grow">Configuración, gestión y seguridad de infraestructuras de red para garantizar alta disponibilidad.</p>
                     <div class="mt-auto">
                         <p class="font-bold text-text-h4">Cisco Networking Academy</p>
-                        <p class="text-text-body text-sm mt-1">2023</p>
+                        <p class="text-text-body text-sm mt-1">En curso</p>
                     </div>
                 </div>
 
@@ -507,61 +505,114 @@
         </div>
     </section>
 
-    <!-- 5. SECCIÓN DE CONTACTO -->
-    <section class="w-full bg-bg-principal py-16 px-8 md:px-12 lg:px-16 ">
-        <div class="max-w-7xl mx-auto bg-bg-secundario rounded-3xl border border-border-general p-8 md:p-12 flex flex-col md:flex-row gap-12">
-            <div class="w-full md:w-1/2 flex flex-col justify-between">
-                <div>
-                    <h2 class="text-4xl font-bold text-text-h1 mb-6 tracking-tight leading-tight">Conectemos para crear nuevas soluciones</h2>
+    <!-- Sesión (Contacto) -->
+    <section id="contacto" class="w-full bg-bg-principal py-16 px-8 md:px-12 lg:px-16">
+        <div class="max-w-7xl mx-auto bg-bg-secundario rounded-3xl border border-border-general p-8 md:p-12 reveal">
+            <div class="flex flex-col lg:flex-row gap-12 items-center">
+                <div class="w-full lg:w-1/2">
+                    <h2 class="text-4xl font-bold text-text-h1 mb-6 tracking-tight leading-tight">Contactame para crear nuevas soluciones</h2>
                     <p class="text-text-body text-lg mb-8 leading-relaxed">¿Tienes en mente un proyecto nuevo, una idea por materializar o necesitas sumar a tu equipo un perfil técnico con sensibilidad estética? Hablemos sin compromiso.</p>
                     
-                    <div class="flex flex-col gap-4">
-                        <div class="flex items-center justify-between bg-bg-principal p-4 rounded-xl border border-border-general">
-                            <div class="flex items-center gap-4">
-                                <div class="w-10 h-10 bg-primario text-white rounded-lg flex items-center justify-center">✉️</div>
-                                <div>
-                                    <p class="text-sm text-text-caption font-bold">Correo electrónico</p>
-                                    <p class="font-semibold text-text-h3">josemanueltadeo2003@gmail.com</p>
-                                </div>
-                            </div>
-                            <button class="text-text-body hover:text-primario">📋</button>
-                        </div>
-                        <div class="flex items-center justify-between bg-bg-principal p-4 rounded-xl border border-border-general">
-                            <div class="flex items-center gap-4">
-                                <div class="w-10 h-10 bg-[#25D366] text-white rounded-lg flex items-center justify-center">💬</div>
-                                <div>
-                                    <p class="text-sm text-text-caption font-bold">WhatsApp</p>
-                                    <p class="font-semibold text-text-h3">+ 52 6183316693</p>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="flex items-center gap-2 text-text-h3 font-medium">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 text-primario">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                        </svg>
+                        México, Durango
                     </div>
                 </div>
-                <div class="flex items-center gap-2 mt-12 text-text-h3 font-medium">
-                    <span>🇲🇽</span> México, Durango
-                </div>
-            </div>
 
-            <div class="w-full md:w-1/2 bg-[#F4F7FB] p-8 rounded-2xl border border-border-general">
-                <h3 class="text-2xl font-bold text-text-h2 mb-6">Envíame un mensaje</h3>
-                <form class="flex flex-col gap-5">
-                    <div class="flex flex-col gap-2">
-                        <label class="font-semibold text-text-label">Nombre o Empresa</label>
-                        <input type="text" placeholder="Escribe tu nombre o empresa" class="w-full px-4 py-3 bg-input-bg border border-input-border text-input-text placeholder-input-placeholder rounded-lg focus:outline-none focus:border-input-focus-border focus:ring-2 focus:ring-input-focus-ring transition-all">
-                    </div>
-                    <div class="flex flex-col gap-2">
-                        <label class="font-semibold text-text-label">Tú Correo Electronico</label>
-                        <input type="email" placeholder="nombre@gmail.com" class="w-full px-4 py-3 bg-input-bg border border-input-border text-input-text placeholder-input-placeholder rounded-lg focus:outline-none focus:border-input-focus-border focus:ring-2 focus:ring-input-focus-ring transition-all">
-                    </div>
-                    <div class="flex flex-col gap-2">
-                        <label class="font-semibold text-text-label">Mensaje o Detalle del Proyecto</label>
-                        <textarea rows="4" placeholder="Cuentame sobre tu proyecto, plazo aproximado o requerimientos tecnicos...." class="w-full px-4 py-3 bg-input-bg border border-input-border text-input-text placeholder-input-placeholder rounded-lg focus:outline-none focus:border-input-focus-border focus:ring-2 focus:ring-input-focus-ring transition-all resize-none"></textarea>
-                    </div>
-                    <button type="submit" class="w-full mt-2 py-3.5 bg-btn-primary-bg hover:opacity-90 text-btn-primary-text font-bold text-lg rounded-xl transition-all flex justify-center items-center gap-2 cursor-pointer">
-                        Enviar propuesta <span>➤</span>
-                    </button>
-                </form>
+                <div class="w-full lg:w-1/2 flex flex-col gap-4">
+                    <a href="mailto:josemanueltadeo2003@gmail.com" class="group flex items-center justify-between bg-bg-principal p-6 rounded-xl border border-border-general hover:border-primario transition-all duration-300">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 rounded-full bg-blue-50 flex items-center justify-center text-primario group-hover:bg-primario group-hover:text-white transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="text-sm text-text-caption font-bold uppercase tracking-wider">Correo electrónico</p>
+                                <p class="font-semibold text-text-h3 text-lg">josemanueltadeo2003@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="text-gray-400 group-hover:text-primario transition-colors">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
+                        </div>
+                    </a>
+
+                    <a href="https://wa.me/526183316693" target="_blank" rel="noopener noreferrer" class="group flex items-center justify-between bg-bg-principal p-6 rounded-xl border border-border-general hover:border-primario transition-all duration-300">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 rounded-full bg-green-50 flex items-center justify-center text-green-600 group-hover:bg-green-600 group-hover:text-white transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="text-sm text-text-caption font-bold uppercase tracking-wider">WhatsApp</p>
+                                <p class="font-semibold text-text-h3 text-lg">+ 52 6183316693</p>
+                            </div>
+                        </div>
+                        <div class="text-gray-400 group-hover:text-green-600 transition-colors">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     </section>  
 </div>
+
+<!-- Animaciones -->
+<script is:inline>
+    function initAnimations() {
+        const elements = document.querySelectorAll('.reveal');
+        if (elements.length === 0) return;
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, {
+            threshold: 0.1,
+            rootMargin: "0px 0px -50px 0px"
+        });
+
+        elements.forEach((el) => {
+            el.style.opacity = '0';
+            observer.observe(el);
+        });
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initAnimations);
+    } else {
+        initAnimations();
+    }
+
+    document.addEventListener('astro:page-load', initAnimations);
+</script>
+
+<style is:global>
+    .reveal {
+        opacity: 0;
+        transform: translateY(30px);
+        transition: opacity 0.8s cubic-bezier(0.5, 0, 0, 1), transform 0.8s cubic-bezier(0.5, 0, 0, 1);
+        will-change: opacity, transform;
+    }
+
+    .reveal.active {
+        opacity: 1 !important;
+        transform: translateY(0) !important;
+    }
+
+    .reveal-delay-1 { transition-delay: 100ms; }
+    .reveal-delay-2 { transition-delay: 200ms; }
+    .reveal-delay-3 { transition-delay: 300ms; }
+</style>

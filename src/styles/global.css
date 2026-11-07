@@ -4,93 +4,98 @@
   /* =========================================
      PRIMARIOS Y SECUNDARIOS
      ========================================= */
-  --color-primario: #1D4ED8;
-  --color-secundario: #60A5FA;
+  --color-primario: #1d4ed8;
+  --color-secundario: #60a5fa;
 
   /* =========================================
      COLORES FONDOS
      ========================================= */
-  --color-bg-principal: #F8F9FF;
-  --color-bg-secundario: #FFFFFF;
+  --color-bg-principal: #f8f9ff;
+  --color-bg-secundario: #ffffff;
 
   /* =========================================
      JERARQUÍA DE TEXTOS
      ========================================= */
   --color-text-h1: #111827;
-  --color-text-h2: #1F2937;
+  --color-text-h2: #1f2937;
   --color-text-h3: #374151;
-  --color-text-h4: #4B5563;
-  --color-text-h5: #6B7280;
-  --color-text-h6: #9CA3AF;    
-    
+  --color-text-h4: #4b5563;
+  --color-text-h5: #6b7280;
+  --color-text-h6: #9ca3af;
+
   --color-text-body: #52525c;
-  --color-text-label: #4B5563;
-  --color-text-caption: #6B7280;
+  --color-text-label: #4b5563;
+  --color-text-caption: #6b7280;
 
   /* =========================================
      BORDER UNIVERSAL 
-     ========================================= */  
+     ========================================= */
 
-  --color-border-general: #D4D4D8;
+  --color-border-general: #d4d4d8;
 
   /* =========================================
      ETIQUETAS DE SESIÓN (Badges)
      ========================================= */
-  --color-etiqueta-text: #1D4ED8;
-  --color-etiqueta-border: #1D4ED8;
-  --color-etiqueta-bg: #EFF6FF;
+  --color-etiqueta-text: #1d4ed8;
+  --color-etiqueta-border: #1d4ed8;
+  --color-etiqueta-bg: #eff6ff;
 
   /* =========================================
      BOTONES
      ========================================= */
   /* Botón Primario */
-  --color-btn-primary-text: #FFFFFF;
-  --color-btn-primary-bg: #1D4ED8;
+  --color-btn-primary-text: #ffffff;
+  --color-btn-primary-bg: #1d4ed8;
 
   /* Botón Secundario */
-  --color-btn-secundario-text: #1D4ED8;
-  --color-btn-secundario-bg: #FFFFFF;
-  --color-btn-secundario-border: #D1D5DB;
+  --color-btn-secundario-text: #1d4ed8;
+  --color-btn-secundario-bg: #ffffff;
+  --color-btn-secundario-border: #d1d5db;
 
   /* Botón de Icono */
-  --color-btn-icon: #6B7280;
+  --color-btn-icon: #6b7280;
   --color-btn-icon-bg: transparent;
 
   /* =========================================
      ENLACES
      ========================================= */
-  --color-enlace-demo: #1D4ED8;
-  --color-enlace-repositorio: #4B5563;
+  --color-enlace-demo: #1d4ed8;
+  --color-enlace-repositorio: #4b5563;
 
   /* =========================================
      INPUTS
      ========================================= */
   /* Base del Input */
-  --color-input-bg: #FFFFFF;
+  --color-input-bg: #ffffff;
   --color-input-text: #111827;
-  --color-input-placeholder: #9CA3AF;
-  --color-input-border: #D1D5DB;
+  --color-input-placeholder: #9ca3af;
+  --color-input-border: #d1d5db;
 
   /* Estados del Input */
-  --color-input-focus-border: #1D4ED8;
-  --color-input-focus-ring: rgba(29, 78, 216, 0.2); /* Azul con 20% de opacidad */
-  
-  --color-input-error-border: #DC2626;
-  --color-input-error-text: #B91C1C;
-  --color-input-error-bg: #FEF2F2;
+  --color-input-focus-border: #1d4ed8;
+  --color-input-focus-ring: rgba(
+    29,
+    78,
+    216,
+    0.2
+  ); /* Azul con 20% de opacidad */
 
-  --color-input-disabled-bg: #F3F4F6;
-  --color-input-disabled-text: #9CA3AF;
-  --color-input-disabled-border: #E5E7EB;
+  --color-input-error-border: #dc2626;
+  --color-input-error-text: #b91c1c;
+  --color-input-error-bg: #fef2f2;
+
+  --color-input-disabled-bg: #f3f4f6;
+  --color-input-disabled-text: #9ca3af;
+  --color-input-disabled-border: #e5e7eb;
 
   /* Label del Input */
   --color-label-text: #374151;
-  --color-label-required: #DC2626;
+  --color-label-required: #dc2626;
 
   /* =========================================
      SESIÓN PROBLEMA Y SOLUCIÓN
      ========================================= */
-  --color-problema: #DC2626;
-  --color-solucion: #15803D;
-  --color-prob-solu-bg: #EFF6FF;
+  --color-problema: #dc2626;
+  --color-solucion: #15803d;
+  --color-prob-solu-bg: #eff6ff;
 }

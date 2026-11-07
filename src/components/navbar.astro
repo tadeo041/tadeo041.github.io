@@ -1,0 +1,39 @@
+<header class="fixed top-0 left-0 w-full py-5 border-b border-gray-100 bg-white/90 backdrop-blur-md z-50 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 md:px-8 flex items-center justify-between">
+        
+        <!-- Logo -->
+        <a href="/" class="flex items-center gap-1">
+            <!-- Reutilizando el logo que tienes en public/logoPortafolio.svg -->
+            <img src="/logoPortafolio.svg" alt="Manuel.dev Logo" class="h-6 w-auto" />
+        </a>
+
+        <!-- Menú de Navegación (Desktop) -->
+        <nav class="hidden lg:flex items-center gap-8">
+            <a href="#inicio" class="text-primario font-bold text-base transition-colors">Inicio</a>
+            <a href="#proyectos" class="text-text-h3 hover:text-primario font-medium text-base transition-colors">Proyectos</a>
+            <a href="#habilidades" class="text-text-h3 hover:text-primario font-medium text-base transition-colors">Habilidades</a>
+            <a href="#educacion" class="text-text-h3 hover:text-primario font-medium text-base transition-colors">Educación y certificaciones</a>
+            <a href="#experiencia" class="text-text-h3 hover:text-primario font-medium text-base transition-colors">Experiencia</a>
+            <a href="#contacto" class="text-text-h3 hover:text-primario font-medium text-base transition-colors">Contacto</a>
+        </nav>
+
+        <!-- Redes Sociales -->
+        <div class="flex items-center gap-4">
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/manueluxui/" class="text-gray-600 hover:text-primario transition-colors" aria-label="Instagram">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+            </a>
+        </div>
+        
+        <!-- Botón Menú Móvil (Opcional, para pantallas pequeñas) -->
+        <button class="lg:hidden text-text-h3">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+        </button>
+    </div>
+</header>
